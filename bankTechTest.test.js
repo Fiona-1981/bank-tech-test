@@ -1,0 +1,1 @@
+const BankTechTest = require("./bankTechTest");
