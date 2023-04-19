@@ -1,10 +1,10 @@
 const BankStatement = require("./bankStatement");
 
-
-
-describe('BankStatement', () => {
+describe('BankStatement class', () => {
   it('starts at a balance of 0', () => {
-    expect(bankStatement.balance).toBe(0);
+    const balance = new BankStatement();
+
+    expect(balance.getBalance()).toBe(0);
   });
 
   /* it('deposits 1000', () => {
